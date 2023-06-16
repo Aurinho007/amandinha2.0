@@ -1,0 +1,52 @@
+#next-page-button-container {
+  position: fixed;
+  height: auto;
+  width: auto;
+  bottom: 2vh;
+  right: 2vh;
+  animation: next-page-button_jump 6s infinite, right-apper 4s 1;
+  z-index: 9999;
+}
+
+#next-page-button {
+  height: 7vh;
+  width: 7vh;
+  border-radius: 50%;
+  border: 4px var(--white) solid;
+  background-color: rgba(0,0,0,0);
+  color: var(--white);
+  transform: rotate(90deg);
+  font-size: 1.8rem;
+}
+
+@keyframes right-apper {
+  0%{
+    right: -10vh;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes next-page-button_jump {
+  0%{
+    bottom: 1rem;
+
+  }
+  20%{
+    bottom: 1rem;
+
+  }
+  40%{
+    bottom: 1rem;
+  }
+  60%{
+    bottom: 1rem;
+  }
+  80%{
+    bottom: 2rem;
+  }
+  100%{
+    bottom: 1rem;
+  }
+}

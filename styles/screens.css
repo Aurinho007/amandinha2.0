@@ -1,0 +1,250 @@
+#pc-case-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  display: none;
+  position: fixed;
+  z-index: 9999;
+}
+#pc-case-text{
+color: var(--white);
+}
+
+
+#screen_01{
+  background-color: var(--black);
+}
+#title-screen_01 {
+  animation: blink 8s forwards;
+  color: var(--white);
+}
+#tutorial-screen_01{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  animation: blink 6s forwards;
+}
+#text-tutorial-screen_01{
+  color: var(--white);
+  font-family: "font", sans-serif;
+  font-weight: 300;
+}
+#seta-screen_01{
+  margin-top: 20px;
+  height: 6vh;
+  width: 7vh;
+  margin-left: 3rem;
+  transform: rotate(40deg);
+}
+
+
+#screen_02{
+background-color: var(--pink-light);
+}
+#text-screen_02{
+color: var(--black);
+}
+#highlight-screen_02{
+  color: var(--purple);
+}
+
+#screen_03{
+  background-color: var(--pink-dark);
+}
+#text-screen_03{
+  color: var(--white);
+}
+
+#screen_04{
+  background-color: var(--purple);
+}
+#text-screen_04{
+  color: var(--white);
+  font-size: 2rem;
+}
+#image-container_screen_04{
+  height: auto;
+}
+
+
+#amanda-image-screen_04{
+  transform: rotate(8deg);
+  background-image: url(../assets/screen_04/amanda.png);
+}
+#aureo-image-screen_04{
+  transform: rotate(-6deg);
+  background-image: url(../assets/screen_04/aureo.jpeg);
+}
+#highlight-screen_04{
+  color: var(--pink-light);
+}
+
+
+#screen_05{
+  background-color: var(--pink-light);
+}
+#text-screen_05{
+  text-align: justify;
+  font-weight: bold;
+}
+
+
+#screen_06{
+  background-color: var(--purple);
+}
+#image-screen_06{
+  background-image: url(../assets/screen_06/2ndEncontro.png);
+  animation: pulse 3s infinite;
+}
+#highlight-screen_06{
+  color: var(--white);
+}
+
+#screen_07{
+  background-color: var(--pink-dark);
+}
+#highlight-screen_07{
+  color: var(--purple);
+}
+.date-form-option{
+  margin: 20px;
+  padding: 10px;
+}
+.date-form-label{
+  font-family: "font", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.btn-date-form{
+  background-color: var(--purple);
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  margin: 5px;
+  color: var(--black);
+  box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.1);
+
+}
+.btn-date-form:active{
+  transform: scale(0.9);
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.1);
+
+}
+#result-click-screen_07{
+  position: absolute;
+  padding: 20px;
+  margin-top: 50vh;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease;
+}
+
+#screen_08{
+  background-color: var(--purple);
+}
+#image-screen_08{
+  background-image: url(../assets/screen_08/dia_pedido.png);
+  animation: rotate 3s infinite;
+}
+#highlight-screen_08{
+  color: var(--pink-light);
+}
+
+#screen_09{
+  background-color: var(--pink-light);
+  }
+  #text-screen_09{
+  color: var(--black);
+  }
+  #highlight-screen_09{
+    color: var(--purple);
+  }
+
+#screen_10{
+  background-image: url(../assets/screen_10/01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+}
+
+.best-pic{
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#screen_11{
+  background-image: url(../assets/screen_10/02.jpg);
+}
+
+#screen_12{
+  background-image: url(../assets/screen_10/03.jpeg);
+}
+#screen_13{
+  background-image: url(../assets/screen_10/04.jpeg);
+  position: relative;
+}
+#title-img-13{
+  color: var(--white);
+  top: 0px;
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+}
+
+#screen_14{
+  background-color: var(--black);
+}
+
+#text-screen_14{
+  color: var(--pink-light);
+}
+
+#highlight-screen_14{
+  color: var(--purple);
+}
+
+#screen_15{
+  background-color: var(--black);
+}
+
+#text-screen_15{
+  color: var(--purple);
+}
+
+#highlight-screen_15{
+  color: var(--pink-light);
+}
+
+#infinity{
+ height: auto;
+ width: 30vh;
+}
+
+#screen_16{
+  background-color: var(--black);
+}
+
+#text-screen_16{
+  color: var(--pink-light);
+}
+
+#highlight-screen_16{
+  color: var(--purple);
+}
+
+#screen_17{
+  background-color: var(--black);
+}
+
+#text-screen_17{
+  color: var(--white);
+}
+
+
