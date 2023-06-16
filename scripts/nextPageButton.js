@@ -1,12 +1,25 @@
 const windowHeight = window.innerHeight;
 const button = document.getElementById('next-page-button')
 
+const screens = document.getElementsByClassName('screen')
+const positions = []
+let currentScreen = 1
+
+Array.from(screens).forEach(screen => {
+  positions.push(screen)
+})
+
 button.addEventListener('click', () => {
     window.scrollTo({
-      top: window.pageYOffset + windowHeight,
+      top: positions[currentScreen].offsetTop,
       behavior: 'smooth'
     }); 
+    currentScreen++
 });
+
+
+
+
 
 
 window.addEventListener('scroll', function() {
